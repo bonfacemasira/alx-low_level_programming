@@ -20,7 +20,7 @@ for (n = 0; n < 10; n++)
 a = '1';
 for (n = 0; n < 6; n++)
 {
-	putchar('0' + n);
+	putchar('0' + a);
 	a++;
 }
 putchar ('\n');
