@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char a;
+unsigned char a = 'a';
 int n;
 
 for (n = 0; n < 10; n++)
