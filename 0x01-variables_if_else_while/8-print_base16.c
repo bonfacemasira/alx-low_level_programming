@@ -9,7 +9,7 @@
 
 int main(void)
 {
-unsigned char a = 'a';
+unsigned char a = '0';
 int n;
 
 for (n = 0; n < 10; n++)
@@ -18,9 +18,9 @@ for (n = 0; n < 10; n++)
 	a++;
 }
 a = '1';
-for (a = 'a'; a <= 'f'; a++)
+for (n = 0; n < 6; n++)
 {
-	putchar(a);
+	putchar('0' + n);
 	a++;
 }
 putchar ('\n');
