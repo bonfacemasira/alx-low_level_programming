@@ -14,14 +14,14 @@ int n;
 
 for (n = 0; n < 10; n++)
 {
-	putchar(n)
+	putchar(n);
 	n++;
 }
 for (a = 'a'; a <= 'f'; a++)
 {
-	putchar(a)
+	putchar(a);
 	a++
 }
-putchar ('\n')
+putchar ('\n');
 return (0);
 }
