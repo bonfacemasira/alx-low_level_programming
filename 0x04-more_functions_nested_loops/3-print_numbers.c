@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * mul - Multiplies two integers
- * @a: The first number to multiply
- * @b: The second number to multiply with first number
- *
- * Return: The result of multiplication between x param and y param
- */
+  * print_numbers - Print the numbers since 0 up to 9
+  *
+  * Return: The numbers since 0 up to 9
+  */
 
 void print_numbers(void)
 {
